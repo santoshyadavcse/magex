@@ -1,6 +1,6 @@
 {
     "name": "megex/module-offercouon",
-    "description": "Sends coupon on puchase",
+    "description": "Sends coupon code on  purchase",
     "type": "magento2-module",
     "version": "102.0.6",
     "license": [
