@@ -1,0 +1,25 @@
+opyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<!--@subject {{trans "Contact Form"}} @-->
+<!--@vars {
+"var data.comment":"Comment",
+"var data.email":"Sender Email",
+"var data.name":"Sender Name",
+"var data.telephone":"Sender Telephone"
+} @-->
+
+{{template config_path="design/email/header_template"}}
+
+<table class="message-details">
+    <tr>
+        <td><b>{{trans "Coupon Code"}}</b></td>
+        <td>{{var data.coupon_code}}</td>
+    </tr>
+</table>
+<p><b>{{trans "Message"}}</b></p>
+<p>{{var data.comment}}</p>
+
+{{template config_path="design/email/footer_template"}}
+
