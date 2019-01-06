@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
     <menu>
-        <add id="MageEx_OfferCoupon::helloworld" title="Hello World" module="MageEx_OfferCoupon" sortOrder="51" resource="MageEx_OfferCoupon::helloworld"/>
-        <add id="MageEx_OfferCoupon::post" title="Manage Posts" module="MageEx_OfferCoupon" sortOrder="10" action="MageEx_OfferCoupon/post" resource="MageEx_OfferCoupon::post" parent="MageEx_OfferCoupon::helloworld"/>
-        <add id="MageEx_OfferCoupon::hello_configuration" title="Configuration" module="MageEx_OfferCoupon" sortOrder="99" parent="MageEx_OfferCoupon::helloworld" action="adminhtml/system_config/edit/section/helloworld" resource="MageEx_OfferCoupon::helloworld_configuration"/>
-    </menu>
+        <add id="MageEx_OfferCoupon::offercoupon" title="Offer Coupon" module="MageEx_OfferCoupon" sortOrder="51" resource="MageEx_OfferCoupon::offercoupon"/>
+        <add id="MageEx_OfferCoupon::showlog" title="Show Log" module="MageEx_OfferCoupon" sortOrder="10" action="MageEx_OfferCoupon/showlog" resource="MageEx_OfferCoupon::showlog" parent="MageEx_OfferCoupon::offercoupon"/>
+   </menu>
 </config>

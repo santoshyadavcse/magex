@@ -16,6 +16,8 @@
                         </resource>
                     </resource>
                 </resource>
+                <resource id="MageEx_OfferCoupon::offercoupon" title="Offer Couon" sortOrder="10">                    <resource id="MageEx_OfferCoupon::showlog" title="Show Coupon Log" sortOrder="0" />
+                </resource>
             </resource>
         </resources>
     </acl>
